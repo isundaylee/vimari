@@ -10,7 +10,6 @@ import SafariServices
 
 enum ActionType: String {
     case openLinkInTab
-    case openNewTab
     case closeTab
     case changeTab
 }
@@ -26,10 +25,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         switch messageName {
         case ActionType.openLinkInTab.rawValue:
             let url = URL(string: userInfo?["url"] as! String)
-            openInNewTab(url: url!)
-            break
-        case ActionType.openNewTab.rawValue:
-            openNewTab()
+            openInNewTab(url: url!, makeActive: userInfo?["makeActive"] as! Bool)
             break
         case ActionType.closeTab.rawValue:
             closeTab()
@@ -51,19 +47,9 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         }
     }
 
-    func openInNewTab(url: URL) {
+    func openInNewTab(url: URL, makeActive: Bool) {
         SFSafariApplication.getActiveWindow(completionHandler: {
-            $0?.openTab(with: url, makeActiveIfPossible: false, completionHandler: {_ in
-                // Perform some action here after the page loads
-            })
-        })
-    }
-    
-    func openNewTab() {
-        // Ideally this URL would be something that represents an empty tab better than localhost
-        let url = URL(string: "http://localhost")!
-        SFSafariApplication.getActiveWindow(completionHandler: {
-            $0?.openTab(with: url, makeActiveIfPossible: true, completionHandler: {_ in
+            $0?.openTab(with: url, makeActiveIfPossible: makeActive, completionHandler: {_ in
                 // Perform some action here after the page loads
             })
         })

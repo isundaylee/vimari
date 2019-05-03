@@ -63,8 +63,8 @@ var actionMap = {
 	'reload':
 		function() { window.location.reload(); },
 
-	'openTab':
-		function() { openNewTab(); },
+	'openTab': function() {
+		safari.extension.dispatchMessage('openLinkInTab', {url: settings.openTabDefaultPage, makeActive: true}); },
 
 	'closeTab':
 		function() { safari.extension.dispatchMessage('closeTab'); },
@@ -257,11 +257,6 @@ function isExcludedUrl(storedExcludedUrls, currentUrl) {
         }
     }
     return false;
-}
-
-function openNewTab() {
-    console.log("-- Open new empty tab --");
-    safari.extension.dispatchMessage("openNewTab");
 }
 
 // These formations removes the protocol and www so that
