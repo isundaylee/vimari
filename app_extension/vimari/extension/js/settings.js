@@ -27,6 +27,7 @@ function getSettings() {
         'closeTabReverse': 'shift+x',
 
         'openTab': 't',
+        'openTabDefaultPage': 'https://google.com',
     };
 }
 
