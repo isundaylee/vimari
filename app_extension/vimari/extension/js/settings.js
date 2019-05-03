@@ -5,6 +5,7 @@ function getSettings() {
 
         'hintToggle': 'f',
         'newTabHintToggle': 'shift+f',
+        'newTabMakeActive': false,
         'linkHintCharacters': 'arstqwfpcv',
         'detectByCursorStyle': false,
 
