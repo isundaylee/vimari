@@ -17,6 +17,7 @@ function getSettings() {
         'scrollDownHalfPage': 'd',
         'goToPageTop': 'g g',
         'goToPageBottom': 'shift+g',
+        'goToFirstInput': 'g i',
 
         'goBack': 'ctrl+h',
         'goForward': 'ctrl+l',
