@@ -238,7 +238,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = net.televator;
+				ORGANIZATIONNAME = me.ljh;
 				TargetAttributes = {
 					E380F2452331806400640547 = {
 						CreatedOnToolsVersion = 11.0;
@@ -469,7 +469,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Vimari Extension/Vimari_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y48UDGWSSQ;
+				DEVELOPMENT_TEAM = W5L5FV674S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Vimari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +477,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.televator.Vimari.SafariExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ljh.Vimari.SafariExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -492,7 +492,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Vimari Extension/Vimari_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y48UDGWSSQ;
+				DEVELOPMENT_TEAM = W5L5FV674S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Vimari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,7 +500,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.televator.Vimari.SafariExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ljh.Vimari.SafariExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -517,14 +517,14 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y48UDGWSSQ;
+				DEVELOPMENT_TEAM = W5L5FV674S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Vimari/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.televator.Vimari;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ljh.Vimari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -540,14 +540,14 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y48UDGWSSQ;
+				DEVELOPMENT_TEAM = W5L5FV674S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Vimari/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.televator.Vimari;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ljh.Vimari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
